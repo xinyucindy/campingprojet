@@ -1,0 +1,106 @@
+/** séance Q2. Créez en HTML et CSS un masque noir partiellement transparent permettant de recouvrir toute la page.**/
+.mask{
+    background-color: rgba(0, 0, 0, 0.6);
+    position:fixed;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    z-index:1000;
+}
+.croix{
+	width:30px;
+	height:30px;
+}
+.mask_image{
+	opacity:0.6;
+    background-color:black;
+	height:150px;
+	width:327px; 
+	top:0px; 
+    left:0px;
+	z-index:1000;
+}
+.croix_image{
+	width:30px;
+	height:30px;
+	float: left;
+}
+.navbar-inverse { 
+	margin: 0;
+ }
+.container-fluid{
+	padding-left:90px;
+	padding-right: 90px;
+}
+.jumbotron{
+	text-align: center;
+}
+article{
+	margin-left: 90px;
+	margin-right: 100px;
+}
+footer{
+	background-color:#263238;
+	color: white;
+	padding-left: 90px;
+	padding-top: 30px;
+    padding-right: 90px;
+    padding-bottom: 30px;
+}
+.Price {
+	float: right;
+    margin-top: 24px;
+    margin-right: 8px;
+}
+.window{
+	position: relative;
+	display: block;
+	width: 700px;
+	height:300Px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.slide_imgs{
+	width:3500px;
+	height:300px ;
+	position: relative;
+	margin-left: auto;
+    margin-right: auto;
+    
+}
+.slide_img{
+	width: 700px;
+	height:300Px;
+	display:inline-block;
+	margin-left: auto;
+    margin-right: auto;
+}
+/** média queries: losque l'écran esr plus petit; **/
+/**css conditionnel**/
+@media screen and (max-width:650px){
+	table{
+		display:flex;
+		flex-direction:row;}
+	table tr{
+		display:flex;
+		flex-direction: column;}
+	table thead {flex: 1;}
+	table tbody {flex: 2;}
+}
+time{
+	background-color: #BBBCBA;
+}
+.list-group{
+	width:70%;
+}
+/** element de formulaire **/
+.form-compressed {
+	max-width:400Px;
+	margin-left:auto;
+	margin-right: auto;
+}
+.form-principal{
+	padding-left: 250px;
+	padding-right: 250px;
+}
