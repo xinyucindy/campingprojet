@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<title>Mon compte- Camping Paradis</title>
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://use.fontawesome.com/adbd49402c.js"></script>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display, je sais pas la position du menu -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"><span class="glyphicon glyphicon-tree-deciduous" aria-hidden="true"></span> Camping Paradis</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Accueil<span class="sr-only">(current)</span></a></li>
+        <li><a href="reserver.html"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> Réserver</a></li>
+		<li><a href="contact.html"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <!-- 以下两个链接的去处不确定，需要改-->
+        <li class="active"><a href="mon-compte.html"><i class="fa fa-user" aria-hidden="true"></i> Mon compte</a></li>
+		<li><a href="index.html"><i class="fa fa-sign-out" aria-hidden="true"></i></span> Déconnexion</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<section class="container-fluid">
+  <h1>Espace membre</h1>
+  <p>De cet espace, vou pouvez voir et gérer vos réservations d'emplacements.</p>
+  <table  class="table table-bordered table-striped">
+    <!-- thead的作用：在表格很长的时候，超过一页，打印的时候，会重复标题行，refaire l'en-tête-->
+    <!--目前的表格是第一行标题，第二行内容；我们希望当页面缩小的时候，分为两栏，左栏是标题，右栏是内容 -->
+    <thead>
+    <tr>
+      <th>NOM</th>
+      <th>Prénom</th>
+      <th>E-mail</th>
+      <th>Adress</th>
+      <th>Code postal</th>
+      <th>Ville</th>
+      <th>Téléphone</th>
+    </tr>
+  </thead>
+  <tbody> 
+    <tr>
+      <td>SMITH</td>
+      <td>John</td>
+      <td>join.smith@email.com</td>
+      <td>17 avenue du Général Leclerc</td>
+      <td>75001</td>
+      <td>Paris 1er</td>
+      <td>06 78 90 12 34</td>
+    </tr>
+  </tbody>
+  </table>
+  <hr>
+  <h1>Mes emplacements réservés</h1>
+  <p>Vous avez réservé <b>2 emplacements.</b></p>
+  <br>
+  <!-- Bootstrap: List group-->
+  <ul class="list-group">
+  <li class="list-group-item"><span class="badge">Annuler cette réservation</span>Emplacement n°102 <button type="button" class="btn btn-primary btn-xs">77€</button> <br>
+    Réservé par vous du <time>26/07/2017</time> au <time>31/12/2017</time></li>
+  <li class="list-group-item"><span class="badge">Réservation terminée</span>Emplacement n°95 <button type="button" class="btn btn-primary btn-xs">104€</button> <br>
+    Réservé par vous du <time>12/09/2017</time> au <time>18/09/2017</time></li>
+  </ul>
+  <br>
+  <br>
+</section>
+<footer>
+  <div class="row">
+  <div class="col-xs-12 col-md-8">
+    <p>Mentions légales Lorem ipsum dolor sit amet, <b>consectetur</b> adipisicing elit. Cupiditate alias, <b>doloremque</b> eaque ab sequi praesentium iusto <b>quos</b> consequuntur dolores sint. </p></div>
+  <div class="col-xs-6 col-md-4"><p>Réservz nous sur: <br/><i class="fa fa-facebook" aria-hidden="true"> Facebook </i> • <i class="fa fa-twitter" aria-hidden="true"></i> Twitter</p></div>
+</div>
+</footer>
+<script type="text/javascript" src="jquery_seance4+.js"></script>
+</body>
+</html>

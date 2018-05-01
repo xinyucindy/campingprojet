@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Accueil - Camping Paradis</title>
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+<!-- Jquery S4 Q2. Créez en HTML et CSS un masque noir partiellement transparent permettant de recouvrir toute la page.
+  Q4: Ajoutez en haut à gauche de ce masque une image de croix-->
+  <!--<div class="mask">
+    <img src="https://png.icons8.com/color/540/close-window.png" alt="fermerMask" class="croix">
+  </div> -->
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"><span class="glyphicon glyphicon-tree-deciduous" aria-hidden="true"></span> Camping Paradis</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Accueil<span class="sr-only">(current)</span></a></li>
+        <li><a href="reserver.html"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> Réserver</a></li>
+		<li><a href="contact.html"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="connexion.html"><span class="glyphicon glyphicon-log-out" aria-hidden="true"></span> Connexion</a></li>
+		<li><a href="inscription.html"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Inscription</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+<div class="jumbotron">
+  <h1>Bienvenue au Camping Paradis</h1>
+  <p>Réservez votre emplacement de camping en 3 clics!</p>
+  <p><a class="btn btn-primary btn-lg" href="#" role="button"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> Je réserve mon emplacement</a></p>
+</div>
+
+<div class="window">
+<div class="slide_imgs">
+  <div class="slide_img">
+    <img src="http://medias.voyageons-autrement.com/gallery/2011/11/Senonches-Cabane-paysage-Cr%C3%A9dits-R.Etienne-Item.jpg" alt="camping_type1" class="slide_img">
+  </div><div class="slide_img">
+    <img src="https://europe.huttopia.com/content/uploads/2016/11/Huttopia-Dieulefit-Cahutte-%C2%A9-Huttopia-R.Etienne-3.jpg" alt="camping_type2" class="slide_img">
+  </div><div class="slide_img">
+    <img src="http://be.france.fr/sites/default/files/roulottre_1.jpg" alt="camping_type3" class="slide_img">
+  </div><div class="slide_img">
+      <img src="https://res.cloudinary.com/serdy-m-dia-inc/image/upload/w_800,c_limit/legacy_espaces//var/data/gallery/photo/00/28/58/55/131355517308_News_NewsRevision_7225.jpg" alt="campng_interieur1" class="slide_img">
+    </div><div class="slide_img">
+      <img src="http://quebecfrancexpress.com/wp-content/uploads/2014/10/fron_130611_0104.jpg" alt="campng_interieur2" class="slide_img"></div>
+</div>
+</div>
+
+
+<article>
+<h3>Les dernières réservations</h3>
+<p>C'est tellement simple que ça n'arrête pas !</p>
+<hr>
+<div class="row">
+  <div class="col-md-4">
+  <div class="thumbnail">  
+<!-- 
+    <div class="mask_image">
+      <img src="https://png.icons8.com/color/540/close-window.png" alt="fermerMask" class="croix_image">
+    </div>
+-->
+<img src="http://be.france.fr/sites/default/files/roulottre_1.jpg" alt="Nature Stone" class="natureStone">
+      <div class="caption">
+        <h3><span class="glyphicon glyphicon-search" aria-hidden="true"></span> Emplacement n°11</h3>
+        <p class="Date">Réservé le 04/11/2016 par un campeur.</p>
+        <p><a href="#" class="btn btn-primary" role="button"><spam class="price">60€</spam></a> </p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-md-4"> 
+  <div class="thumbnail">
+      <img src="http://medias.voyageons-autrement.com/gallery/2011/11/Senonches-Cabane-paysage-Cr%C3%A9dits-R.Etienne-Item.jpg" alt="Nature Stone" class="natureStone">
+      <div class="caption">
+        <h3><span class="glyphicon glyphicon-search" aria-hidden="true"></span> Emplacement n°102</h3>
+        <p class="Date">Réservé le 08/08/2016 par un campeur.</p>
+        <p><a href="#" class="btn btn-primary" role="button"><spam class="price">95€</spam></a> </p></a> </p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4"> 
+  <div class="thumbnail">
+      <img src="https://europe.huttopia.com/content/uploads/2016/11/Huttopia-Dieulefit-Cahutte-%C2%A9-Huttopia-R.Etienne-3.jpg" alt="Nature Stone" class="natureStone">
+      <div class="caption">
+        <h3><span class="glyphicon glyphicon-search" aria-hidden="true"></span> Emplacement n°47</h3>
+        <p class="Date">Réservé le 09/12/2016 par un campeur.</p>
+        <p><a href="#" class="btn btn-primary" role="button"><spam class="price">75€</spam></a> </p>
+      </div>
+    </div>
+  </div>
+</div>
+  
+</article>
+
+<footer>
+  <div class="row">
+  <div class="col-xs-12 col-md-8">
+    <p>Mentions légales Lorem ipsum dolor sit amet, <b>consectetur</b> adipisicing elit. Cupiditate alias, <b>doloremque</b> eaque ab sequi praesentium iusto <b>quos</b> consequuntur dolores sint. </p></div>
+  <div class="col-xs-6 col-md-4"><p>Réservz nous sur: <br/><i class="fa fa-facebook" aria-hidden="true">Facebook </i> <i class="fa fa-twitter" aria-hidden="true"></i> Twitter</p></div>
+</div>
+</footer>
+
+<script type="text/javascript" src="index_jquery_seance4.js"></script>
+</body>
+</html>

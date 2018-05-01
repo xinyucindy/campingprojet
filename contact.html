@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Contact- Camping Paradis</title>
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display, je sais pas la position du menu -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"><span class="glyphicon glyphicon-tree-deciduous" aria-hidden="true"></span> Camping Paradis</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li ><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Accueil<span class="sr-only">(current)</span></a></li>
+        <li><a href="reserver.html"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> Réserver</a></li>
+		<li class="active"><a href="contact.html"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="connexion.html"><span class="glyphicon glyphicon-log-out" aria-hidden="true"></span> Connexion</a></li>
+		<li><a href="inscription.html"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Inscription</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div class="container">
+  <form  class="form-principal" action="#">
+    <h1>Contact</h1>
+    <p>Une question ? Un renseignement ?</p>
+    <p>laissez_nous un message et notre équipe vous répondra dans les meilleurs délais.</p>
+    <hr>
+    <div class="form-group">
+     <form action="#">
+      <label for="nom">Nom</label>
+      <input autofocus required class="form-control" type="text" id="nom" placeholder="SMITH">
+    </div>
+    <div class="form-group">
+      <label for="prenom">Prénom</label>
+      <input required class="form-control" type="text" id="prenom" placeholder="John">
+    </div>
+    <div class="form-group">
+      <label for="adreesse_email">Adresse e-mail</label>
+      <input required class="form-control" type="text" id="adresse_email" placeholder="john.smith@gmail.com">
+    </div>
+    <div class="form-group">  
+      <label for="message">Message</label>
+     <textarea class="form-control" rows="6" type="message" id="messag" placeholder="Bonjour, "></textarea>
+    </div>
+
+    <div class="form-group">
+     <input type="checkbox" name="copie" id="copie" checked>
+     <label for="copie">Recevoir une copie de mon message à mon adresse email. </label>
+     </div> 
+    <div class="form-group">
+      <input type="submit" class="btn btn-primary btn-lg btn-block"value="Envoyer mon message">
+    </div>
+
+  </form>
+</div>
+
+<footer>
+  <div class="row">
+  <div class="col-xs-12 col-md-8">
+    <p>Mentions légales Lorem ipsum dolor sit amet, <b>consectetur</b> adipisicing elit. Cupiditate alias, <b>doloremque</b> eaque ab sequi praesentium iusto <b>quos</b> consequuntur dolores sint. </p></div>
+  <div class="col-xs-6 col-md-4"><p>Réservz nous sur: <br/><i class="fa fa-facebook" aria-hidden="true"></i> Facebook <i class="fa fa-twitter" aria-hidden="true"></i> Twitter</p></div>
+</div>
+</footer>
+<script type="text/javascript" src="jquery_seance4+.js"></script>
+</body>
+</html>
